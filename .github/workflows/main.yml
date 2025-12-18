@@ -23,7 +23,7 @@ jobs:
         run: pip install pytest
 
       - name: Realizar test
-        run: python pytest.py
+        run: python test.py
 
       - name: Crear imagen dockerfile
         uses: docker/build-push-action@v6
